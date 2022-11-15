@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import styles from "./Swiper.module.scss";
 import "swiper/css";
 
+// eslint-disable-next-line
 export default () => {
   const slides = [
     `${styles.slideZero}`,
