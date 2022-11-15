@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background: var(--header-color);
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 10px;
+  }
+}
+
+.phoneNumber {
+  align-self: center;
+  color: var(--color-white);
+  font-family: var(--font-family-text, sans-serif);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+}

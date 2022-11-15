@@ -1,0 +1,46 @@
+.swiper {
+  width: 100%;
+  height: 488px;
+}
+
+.slideLast {
+  max-width: var(--calc-padding);
+  margin-right: -80px;
+}
+
+.slideZero {
+  margin-right: 0 !important;
+  max-width: var(--calc-padding);
+}
+
+.slideOne {
+  background-image: url("../../img/swiper1.jpg");
+}
+
+.slideTwo {
+  background-image: url("../../img/swiper2.jpg");
+}
+
+.slideThree {
+  background-image: url("../../img/swiper3.jpg");
+}
+
+.slideFour {
+  background-image: url("../../img/swiper4.jpg");
+}
+
+.slideFive {
+  background-image: url("../../img/swiper5.png");
+}
+
+.slideSix {
+  background-image: url("../../img/swiper6.jpg");
+}
+
+.slideSeven {
+  background-image: url("../../img/swiper7.jpg");
+}
+
+.slideEight {
+  background-image: url("../../img/swiper8.jpg");
+}

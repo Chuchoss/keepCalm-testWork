@@ -1,0 +1,67 @@
+.section {
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(480px, 1fr) minmax(411px, 1fr);
+  column-gap: 126px;
+}
+
+.firstCeil {
+  grid-column: 2/3;
+}
+
+.secondCeil {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.firstSmallImg::after,
+.secondSmallImg::after {
+  content: "";
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 599px;
+  height: 411px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.firstBigImg::before,
+.secondBigImg::before {
+  content: "";
+  top: 186px;
+  position: absolute;
+  width: 860px;
+  max-width: 50%;
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gridCeil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.firstSmallImg::after {
+  background-image: url("../../img/firstSmallImg.jpg");
+}
+
+.secondSmallImg::after {
+  background-image: url("../../img/secondSmallImg.jpg");
+}
+
+.firstBigImg::before {
+  background-image: url("../../img/firstBigImg.jpg");
+}
+
+.secondBigImg::before {
+  background-image: url("../../img/secondBIgImg.jpg");
+}
