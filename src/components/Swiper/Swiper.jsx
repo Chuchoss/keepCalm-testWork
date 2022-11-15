@@ -28,7 +28,7 @@ export default () => {
     swiperEl.addEventListener("mouseenter", enableScroll);
 
     return () => swiperEl.removeEventListener("mouseenter", enableScroll);
-  }, [Swiper]);
+  }, []);
 
   return (
     <Swiper
