@@ -1,3 +1,82 @@
-.section {
-  margin-bottom: 160px;
+.containerSwiper {
+  position: relative;
+  margin-bottom: -160px;
+}
+
+.slider {
+  position: sticky;
+  top: 35%;
+  left: 0;
+  height: 100vh;
+}
+
+.sliderInner {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 40px;
+  justify-content: space-between;
+}
+
+.item {
+  position: relative;
+  min-width: 320px;
+  width: 320px;
+  max-height: 400px;
+  height: 100%;
+  overflow: hidden;
+  background-color: thistle;
+}
+
+.image {
+}
+
+.title {
+  position: sticky;
+  top: 15%;
+  transition: opacity 0.3s ease;
+}
+
+.section:nth-child(1) {
+  background-color: darkmagenta;
+}
+
+.slide {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.slideOne {
+  background-image: url("../../img/swiper1.jpg");
+}
+
+.slideTwo {
+  background-image: url("../../img/swiper2.jpg");
+}
+
+.slideThree {
+  background-image: url("../../img/swiper3.jpg");
+}
+
+.slideFour {
+  background-image: url("../../img/swiper4.jpg");
+}
+
+.slideFive {
+  background-image: url("../../img/swiper5.png");
+}
+
+.slideSix {
+  background-image: url("../../img/swiper6.jpg");
+}
+
+.slideSeven {
+  background-image: url("../../img/swiper7.jpg");
+}
+
+.slideEight {
+  background-image: url("../../img/swiper8.jpg");
 }

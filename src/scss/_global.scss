@@ -19,6 +19,7 @@ body {
   min-height: 100%;
   font-weight: 300;
   font-size: 16px;
+  overscroll-behavior: none;
   color: var(--color-light-dark);
   background-color: var(--color-white);
 }
