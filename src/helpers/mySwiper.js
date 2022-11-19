@@ -3,14 +3,15 @@ export default function mySwiper() {
   let swiperTitle = document.getElementById("swiper-title");
   let containerSwiper = document.getElementById("swiper-container");
   let slider = document.querySelector(".slider");
-  let sliderWidth = slider.getBoundingClientRect().width;
-  let conteinerRigth = images.length * 360 - sliderWidth - 40;
   let topOffset = parseFloat(getCoords(slider).top).toFixed(2);
   let imageWidth;
+  let padding = 40;
   let current = 0;
   let target = 0;
   let ease = 0.07;
   let titleOffset = 50;
+  let sliderWidth = images.length * 360 - padding;
+  let conteinerRigth = sliderWidth - slider.getBoundingClientRect().width;
 
   function lerp(start, end, t) {
     return start * (1 - t) + end * t;
@@ -21,10 +22,7 @@ export default function mySwiper() {
   }
   function init() {
     imageWidth = sliderWidth / images.length;
-    containerSwiper.style.height = `${
-      (sliderWidth - (window.innerWidth - window.innerHeight)) * images.length -
-      (sliderWidth + 40)
-    }px`;
+    containerSwiper.style.height = `${sliderWidth + padding}px`;
   }
 
   function getCoords(elem) {

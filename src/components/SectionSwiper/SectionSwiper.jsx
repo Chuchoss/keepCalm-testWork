@@ -15,10 +15,6 @@ export default function SectionSwiper() {
     `${styles.slideFour}`,
     `${styles.slideFive}`,
     `${styles.slideSix}`,
-    `${styles.slideThree}`,
-    `${styles.slideFour}`,
-    `${styles.slideFive}`,
-    `${styles.slideSix}`,
   ].map((el) => el + " " + styles.slide);
 
   const sliderRef = useRef(null);
