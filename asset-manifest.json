@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/keepCalm-testWork/static/css/main.cd147b8c.css",
+    "main.css": "/keepCalm-testWork/static/css/main.e5688b95.css",
     "main.js": "/keepCalm-testWork/static/js/main.e5edfd48.js",
     "static/media/swiper5.png": "/keepCalm-testWork/static/media/swiper5.182048d7ed72e5ee6913.png",
     "static/media/firstBigImg.jpg": "/keepCalm-testWork/static/media/firstBigImg.7f11221f7389cfd0cbb1.jpg",
@@ -17,11 +17,11 @@
     "static/media/orchidea.woff2": "/keepCalm-testWork/static/media/orchidea.6c160216bac0dbb6b17c.woff2",
     "static/media/manrope.woff2": "/keepCalm-testWork/static/media/manrope.5cec0b38b88685dfa718.woff2",
     "index.html": "/keepCalm-testWork/index.html",
-    "main.cd147b8c.css.map": "/keepCalm-testWork/static/css/main.cd147b8c.css.map",
+    "main.e5688b95.css.map": "/keepCalm-testWork/static/css/main.e5688b95.css.map",
     "main.e5edfd48.js.map": "/keepCalm-testWork/static/js/main.e5edfd48.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd147b8c.css",
+    "static/css/main.e5688b95.css",
     "static/js/main.e5edfd48.js"
   ]
 }
