@@ -22,7 +22,7 @@ export default function mySwiper() {
   }
   function init() {
     imageWidth = sliderWidth / images.length;
-    containerSwiper.style.height = `${sliderWidth + padding}px`;
+    containerSwiper.style.height = `${sliderWidth + padding * 10}px`;
   }
 
   function getCoords(elem) {

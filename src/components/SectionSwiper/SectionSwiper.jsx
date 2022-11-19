@@ -30,9 +30,9 @@ export default function SectionSwiper() {
       </h2>
       <div className={sliderClasses} ref={sliderRef}>
         <div className={styles.sliderInner}>
-          {slides.map((item, index) => (
+          {slides.map((image, index) => (
             <div key={index} className={itemClasses}>
-              <div className={item}></div>
+              <div className={image}></div>
             </div>
           ))}
         </div>
